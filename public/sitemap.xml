@@ -64,22 +64,22 @@
   </url>
   
   <url>
-    <loc>https://optimistic-borg-abea52.netlify.com/tags/about/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://optimistic-borg-abea52.netlify.com/categories/about/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://optimistic-borg-abea52.netlify.com/tags/pubs/</loc>
+    <loc>https://optimistic-borg-abea52.netlify.com/tags/about/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://optimistic-borg-abea52.netlify.com/categories/pubs/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://optimistic-borg-abea52.netlify.com/tags/pubs/</loc>
     <priority>0</priority>
   </url>
   
