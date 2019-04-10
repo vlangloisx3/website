@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pubs on Valerie Langlois</title>
+    <link>/hugo-goa-demo/categories/pubs/</link>
+    <description>Recent content in pubs on Valerie Langlois</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    
+	<atom:link href="/hugo-goa-demo/categories/pubs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Publications</title>
+      <link>/hugo-goa-demo/pubs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/hugo-goa-demo/pubs/</guid>
+      <description>Fraundorf, S. H., Arnold, J. E., Langlois, V.J. (2018) “Disfluency.” In Oxford Bibliographies in Linguistics. Ed. Mark Aronoff. New York: Oxford University Press. Link. — Published in 2014, updated in 2018
+Presentations:
+Langlois, V. J., Zerkle, S. A., Arnold, J. E. (2018) Does planning explain predictability effects on word duration? Talk given at ETAP4 at UMass Amherst
+Langlois, V. J., Arnold, J. E. (2017) How disfluent can you be?: Disfluency as a cue in anxious speakers.</description>
+    </item>
+    
+  </channel>
+</rss>

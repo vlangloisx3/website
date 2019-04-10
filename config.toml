@@ -1,0 +1,97 @@
+## Basic Configuration
+
+baseurl = "https://shenoybr.github.io/hugo-goa-demo/"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Valerie Langlois"
+title = "Valerie Langlois"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+#disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Valerie Langlois"
+intro = "Cognitive Psychology at UNC Chapel Hill"
+description = "Third year graduate student studying psycholinguistics" #<br/> \"Hello\""
+authorimage = "Recent Pic of me.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "vlangloisx3"
+#instagram = "<username>"
+#xing = "<username>"
+linkedin = "vlangloisx3"
+twitter = "vlangloisx3"
+#facebook = "<username>"
+#google = "<username>"
+#stackoverflow = "<username>"
+#lastfm = "<username>"
+#goodreads = "<username>"
+#gitlab = "<username>"
+#bitbucket = "<username>"
+#fivehundredpx = "<username>"
+#flickr = "<username>"
+#foursquare = "<username>"
+#hackernews = "<username>"
+#kickstarter = "<username>"
+#patreon = "<username>"
+#pintrest = "<username>"
+#steam = "<username>"
+#reddit = "<username>"
+#snapchat = "<username>"
+#youtube = "<username>"
+#keybase = "<username>"
+#twitch = "<username>"
+#soundcloud = "<username>"
+#tumblr = "<username>"
+#strava = "<username>"
+#skype = "<username>"
+#telegram = "<username>"
+#whatsapp = "<username>"
+email = "valeriel@live.unc.edu"
+
+## Extras
+[params.extra]
+copyright = "© 2019. Valerie Langlois. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+
+## Main Menu
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 100
+    url = "/about/"
+[[menu.main]]
+    name = "publications"
+    weight = 200
+    identifier = "pubs"
+    url = "/pubs/"  
+#[[menu.main]]
+#    name = "blog"
+#    weight = 300
+#    identifier = "blog"
+#    url = "/blog/"    
+[[menu.main]]
+    name = "CV"
+    identifier = "cv"
+    weight = 400
+    url = "CV-9_17.pdf"

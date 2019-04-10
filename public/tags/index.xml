@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Valerie Langlois</title>
+    <link>/hugo-goa-demo/tags/</link>
+    <description>Recent content in Tags on Valerie Langlois</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    
+	<atom:link href="/hugo-goa-demo/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R Markdown</title>
+      <link>/hugo-goa-demo/tags/r-markdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/hugo-goa-demo/tags/r-markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>plot</title>
+      <link>/hugo-goa-demo/tags/plot/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/hugo-goa-demo/tags/plot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>regression</title>
+      <link>/hugo-goa-demo/tags/regression/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/hugo-goa-demo/tags/regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>/hugo-goa-demo/tags/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/hugo-goa-demo/tags/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pubs</title>
+      <link>/hugo-goa-demo/tags/pubs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/hugo-goa-demo/tags/pubs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
