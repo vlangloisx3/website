@@ -3,83 +3,83 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/blog/</loc>
+    <loc>https://optimistic-borg-abea52.netlify.com/blog/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://optimistic-borg-abea52.netlify.com/categories/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/blog/2015-07-23-r-rmarkdown/</loc>
+    <loc>https://optimistic-borg-abea52.netlify.com/blog/2015-07-23-r-rmarkdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/r-markdown/</loc>
+    <loc>https://optimistic-borg-abea52.netlify.com/categories/r/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://optimistic-borg-abea52.netlify.com/tags/r-markdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://optimistic-borg-abea52.netlify.com/tags/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/plot/</loc>
+    <loc>https://optimistic-borg-abea52.netlify.com/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/regression/</loc>
+    <loc>https://optimistic-borg-abea52.netlify.com/tags/plot/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/about/</loc>
-  </url>
-  
-  <url>
-    <loc>/pubs/</loc>
-  </url>
-  
-  <url>
-    <loc>/categories/about/</loc>
+    <loc>https://optimistic-borg-abea52.netlify.com/tags/regression/</loc>
+    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/about/</loc>
+    <loc>https://optimistic-borg-abea52.netlify.com/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://optimistic-borg-abea52.netlify.com/pubs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://optimistic-borg-abea52.netlify.com/tags/about/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/pubs/</loc>
+    <loc>https://optimistic-borg-abea52.netlify.com/categories/about/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/pubs/</loc>
+    <loc>https://optimistic-borg-abea52.netlify.com/tags/pubs/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://optimistic-borg-abea52.netlify.com/categories/pubs/</loc>
     <priority>0</priority>
   </url>
   
