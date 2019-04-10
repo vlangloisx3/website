@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Valerie Langlois</title>
-    <link>/hugo-goa-demo/</link>
+    <link>/</link>
     <description>Recent content on Valerie Langlois</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
     
-	<atom:link href="/hugo-goa-demo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello R Markdown</title>
-      <link>/hugo-goa-demo/blog/2015-07-23-r-rmarkdown/</link>
+      <link>/blog/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/hugo-goa-demo/blog/2015-07-23-r-rmarkdown/</guid>
+      <guid>/blog/2015-07-23-r-rmarkdown/</guid>
       <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
 summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
@@ -24,10 +24,10 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     
     <item>
       <title>About</title>
-      <link>/hugo-goa-demo/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/hugo-goa-demo/about/</guid>
+      <guid>/about/</guid>
       <description>Hello. I’m a graduate student in the Cognitive Psychology program at University of North Carolina Chapel Hill. I work with Dr. Jennifer Arnold on language processing and production. I graduated from University of Rochester in 2016 with a B.S. in Brain &amp;amp; Cognitive Science and a B.A. in Linguistics. UNC Chapel Hill:
 Arnold Lab
 University of Rochester:
@@ -37,10 +37,10 @@ Rochester Kinder Lab</description>
     
     <item>
       <title>Publications</title>
-      <link>/hugo-goa-demo/pubs/</link>
+      <link>/pubs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/hugo-goa-demo/pubs/</guid>
+      <guid>/pubs/</guid>
       <description>Fraundorf, S. H., Arnold, J. E., Langlois, V.J. (2018) “Disfluency.” In Oxford Bibliographies in Linguistics. Ed. Mark Aronoff. New York: Oxford University Press. Link. — Published in 2014, updated in 2018
 Presentations:
 Langlois, V. J., Zerkle, S. A., Arnold, J. E. (2018) Does planning explain predictability effects on word duration? Talk given at ETAP4 at UMass Amherst
