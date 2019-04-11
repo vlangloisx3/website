@@ -3,11 +3,13 @@
 baseurl = "https://optimistic-borg-abea52.netlify.com/"
 builddrafts = false
 canonifyurls = false
+enableEmoji = true
 languageCode = "en-US"
 
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
+
 
 author = "Valerie Langlois"
 title = "Valerie Langlois"
