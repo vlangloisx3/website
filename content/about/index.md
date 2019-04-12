@@ -21,5 +21,5 @@ I am currently interested in how distributional information in language affects 
 [Arnold Lab](https://arnoldlab.web.unc.edu/arnold-lab-members/)
 
 <b>University of Rochester:</b><br>
-[SEEDLingS](http://www.bcs.rochester.edu/seedlings/)<br>
+[SEEDLingS](https://bergelsonlab.com/seedlings/about-us.html)<br>
 [Rochester Kinder Lab](http://kinderlab.bcs.rochester.edu/)
