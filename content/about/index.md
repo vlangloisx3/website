@@ -11,7 +11,7 @@ tags:
 title: About
 ---
 
-<center><img src="/about/index_files/labpic.jpg" alt="" width="90%"/></center>
+<center><img src="/about/index_files/labpic.jpg" alt="" width="100%"/></center>
 <br>
 I’m a graduate student in the Cognitive Psychology program at University of North Carolina Chapel Hill, working with Dr. Jennifer Arnold. I graduated from University of Rochester in 2016 with a B.S. in Brain & Cognitive Science and a B.A. in Linguistics.
 
