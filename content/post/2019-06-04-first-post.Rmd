@@ -1,8 +1,14 @@
 ---
-title: "First Post"
-author: "Valerie Langlois"
-date: "6/4/2019"
-output: html_document
+title: First Post
+author: Valerie Langlois
+date: '2019-06-04'
+slug: first-post
+categories:
+  - R
+tags: []
+comments: no
+showcomments: yes
+showpagemeta: yes
 ---
 
 ```{r setup, include=FALSE}
