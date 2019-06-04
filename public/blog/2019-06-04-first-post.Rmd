@@ -1,0 +1,20 @@
+---
+title: First Post
+author: Valerie Langlois
+date: '2019-06-04'
+slug: first-post
+categories:
+  - R
+tags: []
+comments: no
+showcomments: yes
+showpagemeta: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+I figured I would test this out to see if everything is working properly. And that I can create new blog posts later!
+
+Will probably edit later.
