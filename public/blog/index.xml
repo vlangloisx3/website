@@ -12,13 +12,14 @@
     
     
     <item>
-      <title>First Post</title>
-      <link>/blog/first-post/</link>
+      <title>New Website</title>
+      <link>/blog/new-website/</link>
       <pubDate>Tue, 04 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>/blog/first-post/</guid>
+      <guid>/blog/new-website/</guid>
       <description>I figured I would test this out to see if everything is working properly. And that I can create new blog posts later!
-Will probably edit later.</description>
+Will probably edit later.
+Blogdown Theme Netlify</description>
     </item>
     
   </channel>
