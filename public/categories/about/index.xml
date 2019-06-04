@@ -2,25 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>about on Valerie Langlois</title>
-    <link>https://optimistic-borg-abea52.netlify.com/categories/about/</link>
+    <link>/categories/about/</link>
     <description>Recent content in about on Valerie Langlois</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     
-	<atom:link href="https://optimistic-borg-abea52.netlify.com/categories/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/about/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://optimistic-borg-abea52.netlify.com/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://optimistic-borg-abea52.netlify.com/about/</guid>
-      <description>Hello. I’m a graduate student in the Cognitive Psychology program at University of North Carolina Chapel Hill. I work with Dr. Jennifer Arnold on language processing and production. I graduated from University of Rochester in 2016 with a B.S. in Brain &amp;amp; Cognitive Science and a B.A. in Linguistics. UNC Chapel Hill:
-Arnold Lab
-University of Rochester:
-SEEDLingS
-Rochester Kinder Lab</description>
+      <guid>/about/</guid>
+      <description>I’m a graduate student in the Cognitive Psychology program at University of North Carolina Chapel Hill, working with Dr. Jennifer Arnold. I graduated from University of Rochester in 2016 with a B.S. in Brain &amp;amp; Cognitive Science and a B.A. in Linguistics.
+I am currently interested in how distributional information in language affects the informativity of different communicative signals. My hope is that somewhere along my grad school journey, I&amp;rsquo;ll be able to incorporate my interests in machine learning with my interests in language learning 😄 UNC Chapel Hill:</description>
     </item>
     
   </channel>
