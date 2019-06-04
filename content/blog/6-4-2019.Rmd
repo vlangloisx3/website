@@ -1,0 +1,14 @@
+---
+title: "First Post"
+author: "Valerie Langlois"
+date: "6/4/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+I figured I would test this out to see if everything is working properly. And that I can create new blog posts later!
+
+Will probably edit later.
