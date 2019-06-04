@@ -87,11 +87,11 @@ socialmarkup = true
     weight = 200
     identifier = "pubs"
     url = "/pubs/"  
-#[[menu.main]]
-#    name = "blog"
-#    weight = 300
-#    identifier = "blog"
-#    url = "/blog/"    
+[[menu.main]]
+    name = "blog"
+    weight = 300
+    identifier = "blog"
+    url = "/blog/"    
 [[menu.main]]
     name = "CV"
     identifier = "cv"
