@@ -17,9 +17,8 @@
       <pubDate>Tue, 04 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/blog/new-website/</guid>
-      <description>I figured I would test this out to see if everything is working properly. And that I can create new blog posts later!
-Will probably edit later.
-Blogdown Theme Netlify</description>
+      <description>After many hours of googling and trial and error, I finally succeeded in creating an academic website to replace my old Wordpress one from UNC. I probably spent more time than I should have on this “small” project, but I think the struggle was worth it.
+There’s a whole website detailing how to create a website using Blogdown in R (and R Markdown). I think most of my troubles came from the fact that I used a different theme than the one from their example, since some themes are not compatible with Blogdown.</description>
     </item>
     
   </channel>
