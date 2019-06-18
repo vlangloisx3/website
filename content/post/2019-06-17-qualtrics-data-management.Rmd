@@ -1,0 +1,28 @@
+---
+title: Qualtrics Data Management
+author: Valerie Langlois
+date: '2019-06-17'
+slug: qualtrics-data-management
+categories:
+  - R
+tags: []
+comments: no
+showcomments: yes
+showpagemeta: yes
+---
+This is for output from Qualtrics that is downloaded in non-legacy format (for scoring on the Author Recognition Task).
+
+## Before running
+Before running the Qualtrics survey, make sure to name all your stimuli and corresponding questions so that they are distinguishable from other questions (i.e. consent, age, gender, etc.). If I have an item with two follow up questions, I name them as such:
+
+
+
+#Three packages needed to install, comment out once done (#)
+#install.packages("reshape2") #only install once
+#install.packages("dplyr") #only install once
+#install.packages("tidyr") #only install once
+
+#Need to run every time you start a new R session
+library(reshape2) 
+library(dplyr)
+library(tidyr)
