@@ -3,6 +3,9 @@ title: Qualtrics Data Management
 author: Valerie Langlois
 date: '2019-06-17'
 slug: qualtrics-data-management
+output:
+  blogdown::html_page:
+    toc: true
 categories:
   - R
 tags: []
@@ -12,8 +15,22 @@ showpagemeta: yes
 ---
 
 
+<div id="TOC">
+<ul>
+<li><a href="#before-running">Before running</a></li>
+<li><a href="#formatting-the-data">Formatting the data</a><ul>
+<li><a href="#setting-up">Setting up</a></li>
+<li><a href="#keeping-relevant-columns">Keeping relevant columns</a></li>
+<li><a href="#adding-more-lists">Adding more lists</a></li>
+<li><a href="#calculating-art-scores">Calculating ART Scores</a></li>
+<li><a href="#wide-to-long-format">Wide to long format</a></li>
+<li><a href="#merging-with-the-design-in-progress">Merging with the design (in progress)</a></li>
+</ul></li>
+<li><a href="#exporting-to-excel">Exporting to Excel</a></li>
+</ul>
+</div>
 
-<p>This is for output from Qualtrics that is downloaded in non-legacy format (for scoring on the Author Recognition Task). <br><br></p>
+<p><br> This is for output from Qualtrics that is downloaded in non-legacy format (for scoring on the Author Recognition Task). <br><br></p>
 <div id="before-running" class="section level2">
 <h2>Before running</h2>
 <p>Before running the Qualtrics survey, make sure to name all your stimuli and corresponding questions so that they are distinguishable from other questions (i.e. consent, age, gender, etc.). If I have an item with two follow up questions, I name them as such:</p>
@@ -286,10 +303,10 @@ design &lt;- read.xlsx(&quot;TVNSF design.xlsx&quot;, sheet = 1)</code></pre>
 master &lt;- merge(design, wideToLong, by=c(&quot;List&quot;, &quot;Item&quot;))</code></pre>
 <p><br><br></p>
 </div>
-<div id="exporting-to-excel" class="section level3">
-<h3>Exporting to Excel</h3>
+</div>
+<div id="exporting-to-excel" class="section level2">
+<h2>Exporting to Excel</h2>
 <p>Last step is to export it as an Excel file</p>
 <pre class="r"><code>#Export the final object as an excel file
 write.xlsx(wideToLong, file = &quot;formatted.xlsx&quot;, colNames = TRUE, colWidths = &quot;auto&quot;)</code></pre>
-</div>
 </div>

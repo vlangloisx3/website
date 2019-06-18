@@ -3,6 +3,9 @@ title: Qualtrics Data Management
 author: Valerie Langlois
 date: '2019-06-17'
 slug: qualtrics-data-management
+output:
+  blogdown::html_page:
+    toc: true
 categories:
   - R
 tags: []
@@ -10,6 +13,7 @@ comments: no
 showcomments: yes
 showpagemeta: yes
 ---
+<br>
 This is for output from Qualtrics that is downloaded in non-legacy format (for scoring on the Author Recognition Task).
 <br><br>
 
@@ -311,7 +315,7 @@ master <- merge(design, wideToLong, by=c("List", "Item"))
 ```
 <br><br>
 
-### Exporting to Excel
+## Exporting to Excel
 Last step is to export it as an Excel file
 
 ```{r export}

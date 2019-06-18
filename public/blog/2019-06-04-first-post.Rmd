@@ -15,8 +15,4 @@ showpagemeta: yes
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-After many hours of googling and trial and error, I finally succeeded in creating an academic website to replace my old Wordpress one from UNC. I probably spent more time than I should have on this "small" project, but I think the struggle was worth it.
-
-There's a whole website detailing how to [<b>create a website</b>](https://bookdown.org/yihui/blogdown/a-quick-example.html) using Blogdown in R (and R Markdown). I think most of my troubles came from the fact that I used a different theme than the one from their example, since some themes are not compatible with Blogdown. Then, to further complicate things, I set it up so that any updates to my website must be pushed to my one and only repository on Github.
-
-In the end, I don't really know how I got everything to work, but it works! Including my rainbow wug favicon.
+This website was created using Blogdown in R (and R Markdown). Details on how to create your own can be found [<b>here</b>](https://bookdown.org/yihui/blogdown/a-quick-example.html). The repository for my website, along with any R code, can be found on my [Github](https://github.com/vlangloisx3/website).
