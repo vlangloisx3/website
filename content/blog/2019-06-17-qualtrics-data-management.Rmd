@@ -263,33 +263,23 @@ wideToLong <- melt(d, id.vars = c("StartDate", "Participant", "List", "Age",
                                   "Subj.SES","SES", "ARTScore", "ARTExclude"),
              variable.name = "Item", value.name = "Response")
 ```
+The warning about attributes means that the number of factors differ across the items. For example, for some items, everyone agreed on the same item, but for other items it was varied. This warning is okay and is expected. 
 
-The variables in the `id.vars` are ones that stay consistent across the items. The last remaining variables **must** be your item labels (S01_Q#) and participant responses. If this is not the case, something will go wrong. To demonstrate, I will leave out `ARTScore` from the code:
-
-```{r wrong, warning=FALSE}
-wrong <- melt(d, id.vars = c("StartDate", "Participant", "List", "Age", 
-                                  "Gender", "Education", "MotherEduc","FatherEduc",
-                                  "Subj.SES","SES", "ARTExclude"),
-             variable.name = "Item", value.name = "Response")
-
-levels(wrong$Item)
-```
-
-Now if you scroll all the way down, `ARTScore` is an `Item`.
-
-The warning about attributes means that the number of factors differ across the items. For example, for some items, only one answer was selected (because it was the right answer), but for other items it was ambiguous. This warning is okay and is expected.
+The variables in the `id.vars` are ones that stay consistent across the participants. The last remaining variables **must** be your item (S01_Q#) and participant responses, because those differ across participants. If this is not the case, something will go wrong.
 
 Now to order by `Participant`
 ```{r ordering}
 wideToLong <- wideToLong[order(wideToLong$Participant),]
 ```
 
-Last thing is to format the two questions (or how ever many there are). If there are none, then skip this step. Again, if they are **labeled correctly**, this is easy to do.
+Last thing is to create a question column, that will tell us whether a row is Question 1 or Question 2 (or 3 and so on). To do this, separate the current `Item` column into two distinct columns (S01_Q1 to S01 and Q1). If there are none, then skip this step. Again, if they are **labeled correctly**, this is easy to do.
 ```{r questions}
-#This separates the item column I have, into Item and Question#
+#This separates the item column into Item and Question#
+
 wideToLong <- wideToLong %>% separate(Item, into = c("Item","Question"), sep = "_")
 
 #Ok but maybe I want to get rid of all the characters in that column, and leave just the number
+#You do not have to 
 wideToLong$Question <- gsub("[a-zA-Z ]", "", wideToLong$Question)
 ```
 <br><br>

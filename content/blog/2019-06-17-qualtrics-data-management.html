@@ -208,43 +208,17 @@ d &lt;- d %&gt;% select(-ART)</code></pre>
              variable.name = &quot;Item&quot;, value.name = &quot;Response&quot;)</code></pre>
 <pre><code>## Warning: attributes are not identical across measure variables; they will
 ## be dropped</code></pre>
-<p>The variables in the <code>id.vars</code> are ones that stay consistent across the items. The last remaining variables <strong>must</strong> be your item labels (S01_Q#) and participant responses. If this is not the case, something will go wrong. To demonstrate, I will leave out <code>ARTScore</code> from the code:</p>
-<pre class="r"><code>wrong &lt;- melt(d, id.vars = c(&quot;StartDate&quot;, &quot;Participant&quot;, &quot;List&quot;, &quot;Age&quot;, 
-                                  &quot;Gender&quot;, &quot;Education&quot;, &quot;MotherEduc&quot;,&quot;FatherEduc&quot;,
-                                  &quot;Subj.SES&quot;,&quot;SES&quot;, &quot;ARTExclude&quot;),
-             variable.name = &quot;Item&quot;, value.name = &quot;Response&quot;)
-
-levels(wrong$Item)</code></pre>
-<pre><code>##   [1] &quot;S01_Q1&quot;   &quot;S01_Q2&quot;   &quot;S02_Q1&quot;   &quot;S02_Q2&quot;   &quot;S03_Q1&quot;   &quot;S03_Q2&quot;  
-##   [7] &quot;S04_Q1&quot;   &quot;S04_Q2&quot;   &quot;S05_Q1&quot;   &quot;S05_Q2&quot;   &quot;S06_Q1&quot;   &quot;S06_Q2&quot;  
-##  [13] &quot;S07_Q1&quot;   &quot;S07_Q2&quot;   &quot;S08_Q1&quot;   &quot;S08_Q2&quot;   &quot;S09_Q1&quot;   &quot;S09_Q2&quot;  
-##  [19] &quot;S10_Q1&quot;   &quot;S10_Q2&quot;   &quot;S11_Q1&quot;   &quot;S11_Q2&quot;   &quot;S12_Q1&quot;   &quot;S12_Q2&quot;  
-##  [25] &quot;S13_Q1&quot;   &quot;S13_Q2&quot;   &quot;S14_Q1&quot;   &quot;S14_Q2&quot;   &quot;S15_Q1&quot;   &quot;S15_Q2&quot;  
-##  [31] &quot;S16_Q1&quot;   &quot;S16_Q2&quot;   &quot;S17_Q1&quot;   &quot;S17_Q2&quot;   &quot;S18_Q1&quot;   &quot;S18_Q2&quot;  
-##  [37] &quot;S19_Q1&quot;   &quot;S19_Q2&quot;   &quot;S20_Q1&quot;   &quot;S20_Q2&quot;   &quot;S21_Q1&quot;   &quot;S21_Q2&quot;  
-##  [43] &quot;S22_Q1&quot;   &quot;S22_Q2&quot;   &quot;S23_Q1&quot;   &quot;S23_Q2&quot;   &quot;S24_Q1&quot;   &quot;S24_Q2&quot;  
-##  [49] &quot;F01_Q1&quot;   &quot;F01_Q2&quot;   &quot;F02_Q1&quot;   &quot;F02_Q2&quot;   &quot;F03_Q1&quot;   &quot;F03_Q2&quot;  
-##  [55] &quot;F04_Q1&quot;   &quot;F04_Q2&quot;   &quot;F05_Q1&quot;   &quot;F05_Q2&quot;   &quot;F06_Q1&quot;   &quot;F06_Q2&quot;  
-##  [61] &quot;F07_Q1&quot;   &quot;F07_Q2&quot;   &quot;F08_Q1&quot;   &quot;F08_Q2&quot;   &quot;F09_Q1&quot;   &quot;F09_Q2&quot;  
-##  [67] &quot;F10_Q1&quot;   &quot;F10_Q2&quot;   &quot;F11_Q1&quot;   &quot;F11_Q2&quot;   &quot;F12_Q1&quot;   &quot;F12_Q2&quot;  
-##  [73] &quot;F13_Q1&quot;   &quot;F13_Q2&quot;   &quot;F14_Q1&quot;   &quot;F14_Q2&quot;   &quot;F15_Q1&quot;   &quot;F15_Q2&quot;  
-##  [79] &quot;F16_Q1&quot;   &quot;F16_Q2&quot;   &quot;F17_Q1&quot;   &quot;F17_Q2&quot;   &quot;F18_Q1&quot;   &quot;F18_Q2&quot;  
-##  [85] &quot;F19_Q1&quot;   &quot;F19_Q2&quot;   &quot;F20_Q1&quot;   &quot;F20_Q2&quot;   &quot;F21_Q1&quot;   &quot;F21_Q2&quot;  
-##  [91] &quot;F22_Q1&quot;   &quot;F22_Q2&quot;   &quot;F23_Q1&quot;   &quot;F23_Q2&quot;   &quot;F24_Q1&quot;   &quot;F24_Q2&quot;  
-##  [97] &quot;F25_Q1&quot;   &quot;F25_Q2&quot;   &quot;F26_Q1&quot;   &quot;F26_Q2&quot;   &quot;F27_Q1&quot;   &quot;F27_Q2&quot;  
-## [103] &quot;F28_Q1&quot;   &quot;F28_Q2&quot;   &quot;F29_Q1&quot;   &quot;F29_Q2&quot;   &quot;F30_Q1&quot;   &quot;F30_Q2&quot;  
-## [109] &quot;F31_Q1&quot;   &quot;F31_Q2&quot;   &quot;F32_Q1&quot;   &quot;F32_Q2&quot;   &quot;F33_Q1&quot;   &quot;F33_Q2&quot;  
-## [115] &quot;F34_Q1&quot;   &quot;F34_Q2&quot;   &quot;F35_Q1&quot;   &quot;F35_Q2&quot;   &quot;F36_Q1&quot;   &quot;F36_Q2&quot;  
-## [121] &quot;ARTScore&quot;</code></pre>
-<p>Now if you scroll all the way down, <code>ARTScore</code> is an <code>Item</code>.</p>
-<p>The warning about attributes means that the number of factors differ across the items. For example, for some items, only one answer was selected (because it was the right answer), but for other items it was ambiguous. This warning is okay and is expected.</p>
+<p>The warning about attributes means that the number of factors differ across the items. For example, for some items, everyone agreed on the same item, but for other items it was varied. This warning is okay and is expected.</p>
+<p>The variables in the <code>id.vars</code> are ones that stay consistent across the participants. The last remaining variables <strong>must</strong> be your item (S01_Q#) and participant responses, because those differ across participants. If this is not the case, something will go wrong.</p>
 <p>Now to order by <code>Participant</code></p>
 <pre class="r"><code>wideToLong &lt;- wideToLong[order(wideToLong$Participant),]</code></pre>
-<p>Last thing is to format the two questions (or how ever many there are). If there are none, then skip this step. Again, if they are <strong>labeled correctly</strong>, this is easy to do.</p>
-<pre class="r"><code>#This separates the item column I have, into Item and Question#
+<p>Last thing is to create a question column, that will tell us whether a row is Question 1 or Question 2 (or 3 and so on). To do this, separate the current <code>Item</code> column into two distinct columns (S01_Q1 to S01 and Q1). If there are none, then skip this step. Again, if they are <strong>labeled correctly</strong>, this is easy to do.</p>
+<pre class="r"><code>#This separates the item column into Item and Question#
+
 wideToLong &lt;- wideToLong %&gt;% separate(Item, into = c(&quot;Item&quot;,&quot;Question&quot;), sep = &quot;_&quot;)
 
 #Ok but maybe I want to get rid of all the characters in that column, and leave just the number
+#You do not have to 
 wideToLong$Question &lt;- gsub(&quot;[a-zA-Z ]&quot;, &quot;&quot;, wideToLong$Question)</code></pre>
 <p><br><br></p>
 </div>
