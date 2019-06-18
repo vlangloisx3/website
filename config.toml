@@ -76,6 +76,9 @@ poweredby = true
 highlightjs = true
 socialmarkup = true
 
+[permalinks]
+post = "/:slug/"
+
 ## Main Menu
 [[menu.main]]
     name = "about"

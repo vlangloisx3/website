@@ -17,8 +17,8 @@
       <pubDate>Mon, 17 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>/blog/qualtrics-data-management/</guid>
-      <description>Before running Formatting the data Setting up Keeping relevant columns Adding more lists Calculating ART Scores Wide to long format Merging with the design (in progress)  Exporting to Excel   
-This is for output from Qualtrics that is downloaded in non-legacy format (for scoring on the Author Recognition Task). Before running Before running the Qualtrics survey, make sure to name all your stimuli and corresponding questions so that they are distinguishable from other questions (i.</description>
+      <description>This is for output from Qualtrics that is downloaded in non-legacy format (for scoring on the Author Recognition Task). Before running Before running the Qualtrics survey, make sure to name all your stimuli and corresponding questions so that they are distinguishable from other questions (i.e. consent, age, gender, etc.). If I have an item with two follow up questions, I name them as such:
+ S01_Q1: Where S01 is the item number (or T01), and Q1 is the first question</description>
     </item>
     
     <item>
