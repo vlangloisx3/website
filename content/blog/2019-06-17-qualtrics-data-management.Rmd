@@ -275,7 +275,6 @@ wideToLong <- wideToLong[order(wideToLong$Participant),]
 Last thing is to create a question column, that will tell us whether a row is Question 1 or Question 2 (or 3 and so on). To do this, separate the current `Item` column into two distinct columns (S01_Q1 to S01 and Q1). If there are none, then skip this step. Again, if they are **labeled correctly**, this is easy to do.
 ```{r questions}
 #This separates the item column into Item and Question#
-
 wideToLong <- wideToLong %>% separate(Item, into = c("Item","Question"), sep = "_")
 
 #Ok but maybe I want to get rid of all the characters in that column, and leave just the number

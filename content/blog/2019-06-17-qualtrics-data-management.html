@@ -214,7 +214,6 @@ d &lt;- d %&gt;% select(-ART)</code></pre>
 <pre class="r"><code>wideToLong &lt;- wideToLong[order(wideToLong$Participant),]</code></pre>
 <p>Last thing is to create a question column, that will tell us whether a row is Question 1 or Question 2 (or 3 and so on). To do this, separate the current <code>Item</code> column into two distinct columns (S01_Q1 to S01 and Q1). If there are none, then skip this step. Again, if they are <strong>labeled correctly</strong>, this is easy to do.</p>
 <pre class="r"><code>#This separates the item column into Item and Question#
-
 wideToLong &lt;- wideToLong %&gt;% separate(Item, into = c(&quot;Item&quot;,&quot;Question&quot;), sep = &quot;_&quot;)
 
 #Ok but maybe I want to get rid of all the characters in that column, and leave just the number
