@@ -159,6 +159,7 @@ d <- mutate(d, "Participant" = 1:nrow(d))
 ```
 <br><br>
 
+
 ### Calculating ART Scores
 
 Now we will create a new object that extracts only the participant number and their ART responses.
