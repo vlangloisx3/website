@@ -11,7 +11,7 @@ tags:
 title: Publications
 ---
 
-Langlois, V.J. & Arnold, J. E. (under review). Print exposure explains individual differences in using syntactic but not semantic cues for pronoun comprehension.
+Langlois, V.J. & Arnold, J. E. (2020). Print exposure explains individual differences in using syntactic but not semantic cues for pronoun comprehension. Cognition, 197. [https://doi.org/10.1016/j.cognition.2019.104155](https://doi.org/10.1016/j.cognition.2019.104155) [[PDF]](https://osf.io/yvqe2/)
 
 Fraundorf, S. H., Arnold, J. E., Langlois, V.J. (2018). “Disfluency.” In Oxford Bibliographies in Linguistics. Ed. Mark Aronoff. New York: Oxford University Press. Link. — Published in 2014, updated in 2018
 <br><br>
