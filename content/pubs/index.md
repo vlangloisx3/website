@@ -25,6 +25,8 @@ Langlois, V. J., Arnold, J. E. (2017). How disfluent can you be?: Disfluency as 
 <br><br>
 <b>Posters:</b>
 
+Langlois, V. J., Arnold, J. E. (2020). Prediction explains effects of both semantic and social cues on pronoun interpretation. Poster presented at the (Virtual) CUNY Conference on Sentence Processing. Hosted by UMass Amherst, MA.
+
 Langlois, V. J., Zerkle, S. A., Arnold, J. E. (2019). Do animated cues elicit similar patterns of pronoun comprehension as live cues? Poster presented at the CUNY Conference on Sentence Processing. University of Colorado Boulder. Boulder, CO. [<b>[PDF]</b>](https://osf.io/p2f3d/)
 
 Langlois, V. J., Arnold, J. E. (2019). Individual differences guide pronoun interpretation in semantically constraining contexts. Poster presented at the CUNY Conference on Sentence Processing. University of Colorado Boulder. Boulder, CO. [<b>[PDF]</b>](https://osf.io/6b48s/)
