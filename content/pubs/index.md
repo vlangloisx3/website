@@ -19,7 +19,7 @@ Fraundorf, S. H., Arnold, J. E., Langlois, V.J. (2018). “Disfluency.” In Oxf
 
 Langlois, V. J., Arnold, J. E. (2019). Individual differences guide pronoun interpretation in semantically constraining contexts. Departmental talk given at the University of North Carolina at Chapel Hill
 
-Langlois, V. J., Zerkle, S. A., Arnold, J. E. (2018). Does planning explain predictability effects on word duration? Talk given at ETAP4 at UMass Amherst. [<b>[PDF]</b>](https://osf.io/se9qy/) [<b>[YouTube]</b>](https://www.youtube.com/watch?v=cP8mm87PJUM)
+Langlois, V. J., Zerkle, S. A., Arnold, J. E. (2018). Does planning explain predictability effects on word duration? Talk given at ETAP4 at UMass Amherst. [<b>[PDF]</b>](https://osf.io/se9qy/) [<b>[Video]</b>](https://www.youtube.com/watch?v=cP8mm87PJUM)
 
 Langlois, V. J., Arnold, J. E. (2017). How disfluent can you be?: Disfluency as a cue in anxious speakers. Departmental talk given at the University of North Carolina at Chapel Hill
 <br><br>
