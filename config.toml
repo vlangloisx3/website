@@ -71,7 +71,7 @@ email = "valeriel@live.unc.edu"
 
 ## Extras
 [params.extra]
-copyright = "© 2019. Valerie Langlois. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+copyright = "© 2020. Valerie Langlois. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
 poweredby = true
 highlightjs = true
 socialmarkup = true
