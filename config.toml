@@ -91,10 +91,10 @@ post = "/:slug/"
     identifier = "pubs"
     url = "/pubs/"  
 [[menu.main]]
-    name = "blog"
+    name = "resources"
     weight = 300
-    identifier = "blog"
-    url = "/blog/"    
+    identifier = "resources"
+    url = "/resources/"    
 [[menu.main]]
     name = "CV"
     identifier = "cv"
