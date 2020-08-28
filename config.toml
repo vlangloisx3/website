@@ -25,7 +25,7 @@ enableRobotsTXT = true
 [params]
 author = "Valerie Langlois"
 intro = "Cognitive Psychology at UNC Chapel Hill"
-description = "Fourth year graduate student studying psycholinguistics" #<br/> \"Hello\""
+description = "Fifth year graduate student studying psycholinguistics" #<br/> \"Hello\""
 authorimage = "Recent Pic of me.jpg"
 dateformat = "Jan 2, 2006"
 
