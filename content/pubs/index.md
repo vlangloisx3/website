@@ -17,6 +17,8 @@ Fraundorf, S. H., Arnold, J. E., Langlois, V.J. (2018). “Disfluency.” In Oxf
 <br><br>
 <b>Talks:</b>
 
+Langlois, V. J. (2020). Investigating distributional effects in syntactic structures using recurrent neural networks. Departmental talk given at the University of North Carolina at Chapel Hill
+
 Langlois, V. J., Arnold, J. E. (2019). Individual differences guide pronoun interpretation in semantically constraining contexts. Departmental talk given at the University of North Carolina at Chapel Hill
 
 Langlois, V. J., Zerkle, S. A., Arnold, J. E. (2018). Does planning explain predictability effects on word duration? Talk given at ETAP4 at UMass Amherst. [<b>[PDF]</b>](https://osf.io/se9qy/) [<b>[Video]</b>](https://www.youtube.com/watch?v=cP8mm87PJUM)
@@ -25,7 +27,9 @@ Langlois, V. J., Arnold, J. E. (2017). How disfluent can you be?: Disfluency as 
 <br><br>
 <b>Posters:</b>
 
-Langlois, V. J., Arnold, J. E. (2020). Prediction explains effects of both semantic and social cues on pronoun interpretation. Poster presented at the (Virtual) CUNY Conference on Sentence Processing. Hosted by UMass Amherst, MA.
+Langlois, V. J. (2020). Investigating the role of distribution in syntactic structures. Poster presented at the 26th Architectures and Mechanisms for Language Processing Conference. Hosted by the University of Potsdam, Germany. [<b>[PDF]</b>](https://osf.io/xbmge/)
+
+Langlois, V. J., Arnold, J. E. (2020). Prediction explains effects of both semantic and social cues on pronoun interpretation. Poster presented at the CUNY Conference on Sentence Processing. Hosted by UMass Amherst, MA. [<b>[PDF]</b>](https://osf.io/uqy9t/)
 
 Langlois, V. J., Zerkle, S. A., Arnold, J. E. (2019). Do animated cues elicit similar patterns of pronoun comprehension as live cues? Poster presented at the CUNY Conference on Sentence Processing. University of Colorado Boulder. Boulder, CO. [<b>[PDF]</b>](https://osf.io/p2f3d/)
 
