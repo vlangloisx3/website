@@ -99,4 +99,4 @@ post = "/:slug/"
     name = "CV"
     identifier = "cv"
     weight = 400
-    url = "CV-10_18_19.pdf"
+    url = "CV-10_22_20.pdf"
