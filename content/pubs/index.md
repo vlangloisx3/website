@@ -17,6 +17,8 @@ Fraundorf, S. H., Arnold, J. E., Langlois, V.J. (2018). “Disfluency.” In Oxf
 <br><br>
 <b>Talks:</b>
 
+Langlois, V. J. (2021). The role of linguistic experience in comprehension: What is it about experience that matters? Departmental talk given at the University of North Carolina at Chapel Hill
+
 Langlois, V. J. (2020). Investigating distributional effects in syntactic structures using recurrent neural networks. Departmental talk given at the University of North Carolina at Chapel Hill
 
 Langlois, V. J., Arnold, J. E. (2019). Individual differences guide pronoun interpretation in semantically constraining contexts. Departmental talk given at the University of North Carolina at Chapel Hill
