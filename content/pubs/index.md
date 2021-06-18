@@ -38,3 +38,8 @@ Langlois, V. J., Arnold, J. E. (2019). Individual differences guide pronoun inte
 Langlois, V. J., Zerkle, S. A., Arnold, J. E. (2018). Does planning explain predictability effects on word duration? Poster presented at the CUNY Conference on Sentence Processing. UC Davis. Davis, CA.
 
 Langlois, V. J., Arnold, J. E. (2018). The role of informativity on the disfluency effect. Poster presented at the CUNY Conference on Sentence Processing. UC Davis. Davis, CA.
+<br><br>
+<b>Manuscripts:</b>
+Langlois, V.J. (2021). Print exposure explains individual differences in using syntactic but not semantic cues for pronoun comprehension. Cognition, 197. [https://doi.org/10.1016/j.cognition.2019.104155](https://doi.org/10.1016/j.cognition.2019.104155) [<b>[PDF]</b>](https://osf.io/yvqe2/)
+
+Langlois, V.J. (2019). Does experience change the informativity of disfluency as a marker of information status? Master's Thesis, University of North Carolina at Chapel Hill. [https://doi.org/10.17615/pb76-y826](https://doi.org/10.17615/pb76-y826)
