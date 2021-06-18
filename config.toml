@@ -24,7 +24,7 @@ enableRobotsTXT = true
 ## Site Settings
 [params]
 author = "Valerie Langlois"
-intro = "Cognitive Psychology at University of Colorado Boulder"
+intro = "Cognitive Psychology at CU Boulder"
 description = "Post-doctoral researcher studying psycholinguistics" #<br/> \"Hello\""
 authorimage = "Recent Pic of me.jpg"
 dateformat = "Jan 2, 2006"
